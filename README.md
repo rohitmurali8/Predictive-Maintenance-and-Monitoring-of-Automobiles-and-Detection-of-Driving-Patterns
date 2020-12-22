@@ -19,3 +19,21 @@ patterns are then compared to the ones practiced when a neutral emotion is exper
 the deviation is calculated. The parameters of driver fatigue and emotional state provide
 insights into the driver health and helps evaluate his/her ability to perform the action of
 driving by comparing it to optimum levels of these parameters and thresholding.
+
+
+This Project demonstrated the methodologies to monitor the driver and vehicular health.
+A combination of data analytics, computer vision and neural networks is used to develop
+this system.This model can be used by fleet service providers to better monitor their drivers
+and their driving patterns to provide better quality of service along with improving road
+safety. This system is proactive and not reactive and provides corrective feedback in real
+time. The image of the driver was captured and the facial parameters were extracted.
+These facial parameters were used to perform facial landmark detection.Once the landmark
+detection was achieved, Fisher face algorithm was used to train a model to detect and
+classify emotional state of the driver. The driver activity monitoring was also performed
+and classified into various classes using a convolutional neural network. The predictive
+maintenance was performed using parameters from the engine control unit.
+The proposed system facilitates fleet management by analysing driver behaviour through
+emotion and fatigue detection along with driver activity monitoring with an accuracy of 74%
+and 95.69% for respective neural networks. Predictive maintenance using logistic regression
+was able to perform convergence up to 97.23%. These factors play a major role in fleet
+management and are paramount towards optimizing the business outcomes.
